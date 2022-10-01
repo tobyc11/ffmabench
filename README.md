@@ -20,3 +20,17 @@ Launch latency: 0.000051 s
 Kernel duration: 1.556323 s
 Your GPU's TFLOPS is 11.038755
 ```
+
+# MacBook Air M1
+
+I ran a similar benchmark using Metal on the M1 air. For whatever reason, I got nowhere near the TFLOPS metric on paper (2.6 TFLOPS).
+
+```
+Benchmarking pixel shader
+Finished in 1.661727 s
+  0.807700 TFLOPS
+
+Benchmarking compute shader
+Finished in 2.701267 s
+  0.794991 TFLOPS
+```
